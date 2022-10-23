@@ -1,12 +1,12 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Tests;
+namespace Palzin\PalzinDumps\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\File;
-use PalzinDumps\PalzinDumps\Actions\SendPayload;
-use PalzinDumps\PalzinDumps\PalzinDumpsServiceProvider;
-use PalzinDumps\PalzinDumps\Tests\Actions\TestDatabase;
+use Palzin\PalzinDumps\Actions\SendPayload;
+use Palzin\PalzinDumps\PalzinDumpsServiceProvider;
+use Palzin\PalzinDumps\Tests\Actions\TestDatabase;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

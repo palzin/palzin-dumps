@@ -1,11 +1,11 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Observers;
+namespace Palzin\PalzinDumps\Observers;
 
 use Illuminate\Support\Str;
 use Illuminate\Validation\Validator;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\TablePayload;
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\TablePayload;
 use ReflectionClass;
 
 class LivewireFailedValidationObserver

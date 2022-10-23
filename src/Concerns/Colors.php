@@ -1,8 +1,8 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Concerns;
+namespace Palzin\PalzinDumps\Concerns;
 
-use PalzinDumps\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\PalzinDumps;
 
 trait Colors
 {

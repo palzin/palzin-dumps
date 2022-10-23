@@ -1,12 +1,12 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Commands;
+namespace Palzin\PalzinDumps\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\{Artisan, File};
-use PalzinDumps\PalzinDumps\Actions\ConsoleUrl;
-use PalzinDumps\PalzinDumps\Commands\Concerns\{RenderAscii, UpdateEnv};
+use Palzin\PalzinDumps\Actions\ConsoleUrl;
+use Palzin\PalzinDumps\Commands\Concerns\{RenderAscii, UpdateEnv};
 
 class InitCommand extends Command
 {

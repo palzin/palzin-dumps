@@ -1,9 +1,9 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Payloads;
+namespace Palzin\PalzinDumps\Payloads;
 
-use PalzinDumps\PalzinDumps\Support;
-use PalzinDumps\PalzinDumps\Support\IdeHandle;
+use Palzin\PalzinDumps\Support;
+use Palzin\PalzinDumps\Support\IdeHandle;
 
 class BladePayload extends Payload
 {

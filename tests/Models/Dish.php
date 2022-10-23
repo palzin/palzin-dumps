@@ -1,6 +1,6 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Tests\Models;
+namespace Palzin\PalzinDumps\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;

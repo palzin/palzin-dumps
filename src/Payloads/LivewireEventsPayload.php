@@ -1,6 +1,6 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Payloads;
+namespace Palzin\PalzinDumps\Payloads;
 
 class LivewireEventsPayload extends Payload
 {

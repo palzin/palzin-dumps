@@ -1,9 +1,9 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Commands;
+namespace Palzin\PalzinDumps\Commands;
 
 use Illuminate\Console\Command;
-use PalzinDumps\PalzinDumps\Support\IdeHandle;
+use Palzin\PalzinDumps\Support\IdeHandle;
 use Symfony\Component\Finder\Finder;
 
 use function Termwind\{render, renderUsing};

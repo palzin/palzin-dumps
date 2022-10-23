@@ -1,6 +1,6 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Support;
+namespace Palzin\PalzinDumps\Support;
 
 class IdeHandle
 {

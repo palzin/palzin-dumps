@@ -1,6 +1,6 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Commands\Concerns;
+namespace Palzin\PalzinDumps\Commands\Concerns;
 
 use Illuminate\Support\Facades\File;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Payloads;
+namespace Palzin\PalzinDumps\Payloads;
 
 use Illuminate\Routing\Route;
 use Illuminate\Support\{Arr, Collection, Str};

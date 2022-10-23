@@ -1,8 +1,8 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Payloads;
+namespace Palzin\PalzinDumps\Payloads;
 
-use PalzinDumps\PalzinDumps\Support\IdeHandle;
+use Palzin\PalzinDumps\Support\IdeHandle;
 
 abstract class Payload
 {

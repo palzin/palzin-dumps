@@ -1,11 +1,11 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Observers;
+namespace Palzin\PalzinDumps\Observers;
 
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Support\Facades\DB;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\QueriesPayload;
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\QueriesPayload;
 
 class QueryObserver
 {

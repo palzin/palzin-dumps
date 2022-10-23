@@ -1,18 +1,18 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps;
+namespace Palzin\PalzinDumps;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\{ServiceProvider, Str};
-use PalzinDumps\PalzinDumps\Commands\{CheckCommand, InitCommand};
-use PalzinDumps\PalzinDumps\Observers\{LivewireComponentsObserver,
+use Palzin\PalzinDumps\Commands\{CheckCommand, InitCommand};
+use Palzin\PalzinDumps\Observers\{LivewireComponentsObserver,
     LivewireDispatchObserver,
     LivewireEventsObserver,
     LivewireFailedValidationObserver,
     LogObserver,
     QueryObserver};
-use PalzinDumps\PalzinDumps\Payloads\QueryPayload;
+use Palzin\PalzinDumps\Payloads\QueryPayload;
 
 class PalzinDumpsServiceProvider extends ServiceProvider
 {

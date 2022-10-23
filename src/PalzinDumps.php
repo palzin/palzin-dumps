@@ -1,13 +1,13 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps;
+namespace Palzin\PalzinDumps;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\{Collection, Str};
-use PalzinDumps\PalzinDumps\Actions\SendPayload;
-use PalzinDumps\PalzinDumps\Concerns\Colors;
-use PalzinDumps\PalzinDumps\Observers\QueryObserver;
-use PalzinDumps\PalzinDumps\Payloads\{ClearPayload,
+use Palzin\PalzinDumps\Actions\SendPayload;
+use Palzin\PalzinDumps\Concerns\Colors;
+use Palzin\PalzinDumps\Observers\QueryObserver;
+use Palzin\PalzinDumps\Payloads\{ClearPayload,
     ColorPayload,
     DiffPayload,
     DumpPayload,

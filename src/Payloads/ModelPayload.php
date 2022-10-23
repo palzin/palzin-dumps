@@ -1,9 +1,9 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Payloads;
+namespace Palzin\PalzinDumps\Payloads;
 
 use Illuminate\Database\Eloquent\Model;
-use PalzinDumps\PalzinDumps\Support\Dumper;
+use Palzin\PalzinDumps\Support\Dumper;
 
 class ModelPayload extends Payload
 {

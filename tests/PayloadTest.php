@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Str;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\{DumpPayload, ModelPayload};
-use PalzinDumps\PalzinDumps\Support\Dumper;
-use PalzinDumps\PalzinDumps\Tests\Models\Dish;
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\{DumpPayload, ModelPayload};
+use Palzin\PalzinDumps\Support\Dumper;
+use Palzin\PalzinDumps\Tests\Models\Dish;
 
 it('should return the correct payload to dump', function () {
     $args   = [
@@ -61,7 +61,7 @@ it('should return the correct payload to model', function () {
         ->and($payload['content']['relations'])
         ->toMatchArray([])
         ->and($payload['content']['className'])
-        ->toBe('PalzinDumps\PalzinDumps\Tests\Models\Dish')
+        ->toBe('Palzin\PalzinDumps\Tests\Models\Dish')
         ->and($payload['content']['attributes'])
         ->toContain(
             '<span class=sf-dump-key>id</span>',

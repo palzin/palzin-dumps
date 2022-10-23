@@ -1,6 +1,6 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Exceptions;
+namespace Palzin\PalzinDumps\Exceptions;
 
 use Exception;
 

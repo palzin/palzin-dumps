@@ -1,12 +1,12 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Observers;
+namespace Palzin\PalzinDumps\Observers;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\LivewirePayload;
-use PalzinDumps\PalzinDumps\Support\{Dumper, IdeHandle};
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\LivewirePayload;
+use Palzin\PalzinDumps\Support\{Dumper, IdeHandle};
 use ReflectionClass;
 
 class LivewireComponentsObserver

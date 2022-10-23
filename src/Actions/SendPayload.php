@@ -1,9 +1,9 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Actions;
+namespace Palzin\PalzinDumps\Actions;
 
-use PalzinDumps\PalzinDumps\Exceptions\CannotSendPayloadException;
-use PalzinDumps\PalzinDumps\Payloads\Payload;
+use Palzin\PalzinDumps\Exceptions\CannotSendPayloadException;
+use Palzin\PalzinDumps\Payloads\Payload;
 
 final class SendPayload
 {

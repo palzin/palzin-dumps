@@ -1,13 +1,13 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Observers;
+namespace Palzin\PalzinDumps\Observers;
 
 use Illuminate\Log\Events\MessageLogged;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Str;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\LogPayload;
-use PalzinDumps\PalzinDumps\Support\Dumper;
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\LogPayload;
+use Palzin\PalzinDumps\Support\Dumper;
 
 class LogObserver
 {

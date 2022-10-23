@@ -1,6 +1,6 @@
 <?php
 
-use PalzinDumps\PalzinDumps\Tests\TestCase;
+use Palzin\PalzinDumps\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
 

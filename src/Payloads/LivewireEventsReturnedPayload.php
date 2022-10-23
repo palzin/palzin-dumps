@@ -1,9 +1,9 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Payloads;
+namespace Palzin\PalzinDumps\Payloads;
 
 use Illuminate\Support\Str;
-use PalzinDumps\PalzinDumps\Support\IdeHandle;
+use Palzin\PalzinDumps\Support\IdeHandle;
 
 class LivewireEventsReturnedPayload extends Payload
 {

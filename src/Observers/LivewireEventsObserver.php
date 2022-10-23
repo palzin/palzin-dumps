@@ -1,11 +1,11 @@
 <?php
 
-namespace PalzinDumps\PalzinDumps\Observers;
+namespace Palzin\PalzinDumps\Observers;
 
 use Illuminate\Support\Str;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\{LivewireEventsPayload, LivewireEventsReturnedPayload};
-use PalzinDumps\PalzinDumps\Support\{Dumper, IdeHandle};
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\{LivewireEventsPayload, LivewireEventsReturnedPayload};
+use Palzin\PalzinDumps\Support\{Dumper, IdeHandle};
 use ReflectionClass;
 
 class LivewireEventsObserver

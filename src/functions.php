@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Str;
 use Illuminate\View\Compilers\BladeCompiler;
-use PalzinDumps\PalzinDumps\PalzinDumps;
-use PalzinDumps\PalzinDumps\Payloads\BladePayload;
+use Palzin\PalzinDumps\PalzinDumps;
+use Palzin\PalzinDumps\Payloads\BladePayload;
 
 if (!function_exists('ds')) {
     function ds(mixed ...$args): PalzinDumps
