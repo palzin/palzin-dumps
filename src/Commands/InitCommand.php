@@ -89,7 +89,7 @@ class InitCommand extends Command
                     . ' --ide=' . config('palzindumps.preferred_ide')
                     . "</>\n\n");
 
-        $this->line("\n\n⭐ Please consider <comment>starring</comment> our repository at <comment>https://github.com/palzindumps/palzindumps</comment>\n");
+        $this->line("\n\n⭐ Please consider <comment>starring</comment> our repository at <comment>https://github.com/palzin/palzin-dumps</comment>\n");
 
         ds('It works! Thank you for using PalzinDumps!')->toScreen('🤖 Setup');
     }

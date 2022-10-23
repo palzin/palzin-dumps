@@ -88,7 +88,7 @@ abstract class Payload
     {
         if (class_exists(\Composer\InstalledVersions::class)) {
             try {
-                return \Composer\InstalledVersions::getVersion('palzindumps/palzindumps');
+                return \Composer\InstalledVersions::getVersion('palzin/palzin-dumps');
             } catch (\Exception) {
                 return '0.0.0';
             }

@@ -28,20 +28,20 @@
  <br/>
 <div align="center">
   <p align="center">
-    <a href="https://packagist.org/packages/palzindumps/palzindumps">
+    <a href="https://packagist.org/packages/palzin/palzin-dumps">
       <img alt="Latest Version" src="https://img.shields.io/static/v1?label=laravel&message=%E2%89%A58.0&color=0078BE&logo=laravel&style=flat-square">
     </a>
-    <a href="https://packagist.org/packages/palzindumps/palzindumps">
-      <img alt="Total Downloads" src="https://img.shields.io/packagist/dt/palzindumps/palzindumps">
+    <a href="https://packagist.org/packages/palzin/palzin-dumps">
+      <img alt="Total Downloads" src="https://img.shields.io/packagist/dt/palzin/palzin-dumps">
     </a>
-    <a href="https://packagist.org/packages/palzindumps/palzindumps">
-      <img alt="Latest Version" src="https://img.shields.io/packagist/v/palzindumps/palzindumps">
+    <a href="https://packagist.org/packages/palzin/palzin-dumps">
+      <img alt="Latest Version" src="https://img.shields.io/packagist/v/palzin/palzin-dumps">
     </a>
-    <a href="https://github.com/palzindumps/palzindumps/actions">
-        <img alt="Tests" src="https://github.com/palzindumps/palzindumps/workflows/PalzinDumps%20Tests/badge.svg" />
+    <a href="https://github.com/palzin/palzin-dumps/actions">
+        <img alt="Tests" src="https://github.com/palzin/palzin-dumps/workflows/PalzinDumps%20Tests/badge.svg" />
     </a>
-    <a href="https://packagist.org/packages/palzindumps/palzindumps">
-      <img alt="License" src="https://img.shields.io/github/license/palzindumps/palzindumps">
+    <a href="https://packagist.org/packages/palzin/palzin-dumps">
+      <img alt="License" src="https://img.shields.io/github/license/palzin/palzin-dumps">
     </a>
   </p>
 </div>
